@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    max-width: 500px;
+    width: 90%;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+ul#answers {
+    list-style-type: none; /* Strip out ugly bullet points */
+    padding: 0;
+}
+
+ul#answers li {
+    margin: 12px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button:hover, button:focus {
+    background-color: #0056b3;
+    outline: 2px solid #ffffff; /* Crucial keyboard accessibility helper */
+}
+
+#next-btn {
+    background-color: #28a745;
+    margin-top: 10px;
+}
